@@ -3,12 +3,12 @@ import { useContext } from "react"
 import Header from "../components/Header"
 import Title from "../components/Title"
 
-const Home = () => {
+const Clientes = () => {
   const {user} = useContext(AuthContext)
   return (
     <div>
       <Header />
-      <Title titulo="Chamados" icon="fa-solid fa-house"/>
+      <Title titulo="Clientes" icon="fa-solid fa-users"/>
       <div className="container">
         <h6>Olá {user?.email}</h6>
       </div>
@@ -16,4 +16,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Clientes

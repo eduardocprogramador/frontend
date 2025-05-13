@@ -21,13 +21,13 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="nav-principal">
                         <ul className="navbar-nav d-flex justify-content-between w-100">
                             <li className="nav-item mx-auto">
-                                <Link to="/" className="nav-link fw-bold mb-1 text-light">
-                                    <i class="fa-solid fa-house"></i> Início
+                                <Link to="/home" className="nav-link fw-bold mb-1 text-light">
+                                    <i class="fa-solid fa-house"></i> Chamados
                                 </Link>
                             </li>
                             <li className="nav-item mx-auto">
-                                <Link to="/" className="nav-link fw-bold mb-2 text-light">
-                                    <i class="fa-solid fa-envelope"></i> Contato
+                                <Link to="/clientes" className="nav-link fw-bold mb-2 text-light">
+                                    <i class="fa-solid fa-users"></i> Clientes
                                 </Link>
                             </li>
                             <li className="nav-item mx-auto">
